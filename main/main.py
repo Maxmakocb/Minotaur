@@ -5,9 +5,9 @@ import time
 def main():
     pygame.init()
     Window(WindowConfig())
-    # Background
+
     background = pygame.image.load("../cat.jpg")
-    # create the screen with 800 pixals width and 600 pixals hieght
+
     screen = pygame.display.set_mode((800, 600))
     running = True
     while running:
