@@ -2,6 +2,7 @@ import pygame
 from graphics.window import Window, WindowConfig
 import time
 
+
 def main():
     pygame.init()
     Window(WindowConfig())
